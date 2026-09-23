@@ -9,12 +9,10 @@ Esto tuvo mucho que ver con los Negocios Internacionales, porque las empresas em
 Además, gracias al desarrollo de los ferrocarriles, barcos y nuevas formas de comunicación, transportar productos y hacer negocios con otros países se volvió mucho más fácil y rápido.
 Por eso, esta etapa fue importante para el crecimiento del comercio internacional, ya que permitió que las empresas comenzaran a tener una presencia más grande en diferentes partes del mundo.
 En pocas palabras, podemos decir que esta revolución ayudó a sentar las bases de los Negocios Internacionales y de la globalización que conocemos actualmente.
+
 Tercera revolucion <br>La Tercera Revolución Industrial comenzó en la segunda mitad del siglo XX y se caracterizó por el desarrollo de los computadores, internet y las telecomunicaciones.
-
 Para los Negocios Internacionales fue importante porque permitió una comunicación más rápida entre empresas de diferentes países, facilitó el comercio internacional y ayudó a las empresas a entrar en nuevos mercados.
-
 Por ejemplo, una empresa colombiana podía comunicarse con clientes y proveedores de otros países usando internet.
-
 En conclusión, esta revolución permitió conectar más fácilmente a las empresas y los mercados del mundo.
 
 Cuarta revolucion <br>
