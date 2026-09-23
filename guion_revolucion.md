@@ -1,4 +1,5 @@
 Introcuccion<br>¡Hola a todos! Hoy vamos a recorrer cómo las cuatro Revoluciones Industriales han transformado el mundo, desde el vapor hasta la Inteligencia Artificial. Pero no nos quedaremos ahí: combinando las Lenguas Modernas y los Negocios Internacionales, nos atreveremos a imaginar una quinta revolución donde la comunicación global y los mercados convergen sin barreras. ¡Acompáñennos en este viaje!
+
 Primera revolucion<br> ¿Sabías que la Primera Revolución Industrial no solo trajo trenes y carbón, sino que inventó las lenguas modernas tal como las estudiamos hoy?
 Al expandirse el comercio y la imprenta a vapor, el inglés se convirtió en el idioma de la tecnología. Las escuelas tuvieron que dejar atrás el latín para enseñar lenguas vivas por pura necesidad comercial.
 En fin: el vapor no solo movió máquinas, ¡aceleró la forma en que el mundo aprendía a comunicarse!
