@@ -4,7 +4,7 @@
 [organización] y qué le duele de él.
 | Dato | Respuesta |
 |---|---|
-| Felipe Escobar | |
+| Nombre (o iniciales) |Felipe Escobar |
 | Cargo | |
 | Organización | |
 | Área | |
