@@ -31,13 +31,11 @@ ni presenten su idea de prototipo.
 2. Con esas frases, llenen `assets/mapa-empatia.png`.
 ## 3. Preguntas
 **Piensa y siente**
-1. ¿Qué es lo que más le preocupa cuando hace [proceso] en [área]?
-2. Si pudiera cambiar una sola cosa de [proceso], ¿cuál sería y por qué?
+1.  ¿Qué es lo que más le preocupa cuando realiza el proceso de asesoría de ventas de apartamentos y bienes raíces en Abitare?
+2. Si pudiera cambiar una sola cosa del proceso de asesoría de ventas de apartamentos y bienes raices, ¿cuál sería y por qué?
 **Ve**
-3. ¿Cómo es el lugar y con qué herramientas hace [proceso] (papel, Excel, sistema,
-máquinas)?
-4. ¿Ha visto en otra empresa o área una forma de hacer [proceso] que le parezca
-mejor? ¿Cuál?
+3. ¿Cómo es el lugar donde trabaja y qué herramientas utiliza para asesorar a los clientes interesados en comprar apartamentos o inmuebles, como Excel, sistemas digitales o plataformas inmobiliarias?
+4. ¿Ha visto en otra empresa inmobiliaria una forma de realizar la asesoría de ventas que le parezca mejor? ¿Cuál?
 **Oye**
 5. ¿Qué le dicen su jefe, sus compañeros o los clientes de [organización] sobre
 cómo funciona [proceso]?
