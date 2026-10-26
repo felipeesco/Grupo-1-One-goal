@@ -44,12 +44,11 @@ cómo funciona [proceso]?
 7. Cuénteme paso a paso qué hizo la última vez que realizó [proceso].
 8. ¿Qué hace cuando algo sale mal en [proceso]?
 **Dolores**
-9. ¿Qué es lo más lento, difícil o frustrante de [proceso]?
-10. ¿Cuándo fue la última vez que tuvo un problema con [proceso] y qué pasó?
+9. ¿Qué es lo más lento, difícil o frustrante al asesorar clientes interesados en comprar apartamentos e inmuebles?
+10. ¿Cuándo fue la última vez que tuvo un problema durante la asesoría o venta de un inmueble y qué pasó?
 **Ganancias**
-11. Si [proceso] funcionara perfecto, ¿qué cambiaría en su día?
-12. ¿Qué le ayudaría a ahorrar tiempo, dinero o esfuerzo en [proceso]?
-**Proceso actual en [organización]** (las escribe el equipo)
+11. Si el proceso de asesoría de ventas de apartamentos y bienes raíces funcionara perfecto, ¿qué cambiaría en su día de trabajo?
+12. ¿Qué le ayudaría a ahorrar tiempo, dinero o esfuerzo al asesorar clientes y vender apartamentos o inmuebles?
 13.
 14.
 ## 4. Resultados
