@@ -5,15 +5,14 @@
 | Dato | Respuesta |
 |---|---|
 | Nombre (o iniciales) |Felipe Escobar |
-| Cargo | |
-| Organización | |
-| Área | |
-| Fecha y hora | |
-| Medio (presencial / llamada / videollamada) | |
+| Cargo |asesor comercial |
+| Organización |abitare propiedad raiz|
+| Área |Ventas |
+| Fecha y hora |26/10/26 |
+| Medio (presencial / llamada / videollamada) |presencial |
 | ¿Autorizó publicar sus respuestas en el repositorio? (Sí / No, se usan iniciales)
 | |
-| Entrevistador(es) | |
-> El entrevistado es **usuario** de la organización, es decir, quien vive el
+| Entrevistador(es) |Darlyn serrano, Mathias berdugo, thomas rusinqui, Felipe Escobar  > El entrevistado es asesor comercial de la organización, es decir, quien vive el
 proceso. No es un cliente de la organización.
 ## 2. Cómo aplicar la entrevista
 **Antes**
