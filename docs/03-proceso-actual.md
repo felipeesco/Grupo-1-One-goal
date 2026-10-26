@@ -1,6 +1,6 @@
 Proceso actual <br>
 1. BPMN de práctica <br>
-![BPMN de práctica](BPMN_PRACTICA#3.png) <br>
+![BPMN de práctica](../assets/BPMN_PRACTICA#3.png) <br>
 Declaración de IA: <br>
 [herramienta y versión] – [dd/mm/aaaa] – prompt registrado en docs/11-uso-ia.md <br>
 <br>
@@ -17,7 +17,7 @@ Fuente (contacto, cargo y fecha): Asesor comercial de Abitare, familiar de la du
 Decisión: [¿El pago llegó?]Sí: [Tarea si Sí]. Confirmar el apartado al cliente.No:Pedir de nuevo el comprobante. [Tarea si No]. <br>
 <br>
 4. Diagrama BPMN <br>
-![BPMN proceso actual](../assets/bpmn-actual.png) <br>
+![BPMN proceso actual](../assets/abitare_apartado_bpmn.png) <br>
 Archivo editable: [bpmn-actual.bpmn](../assets/bpmn-actual.bpmn) <br>
 <br>
 5. Puntos críticos <br>
