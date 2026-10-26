@@ -53,6 +53,6 @@ cómo funciona el proceso de asesoría y venta de apartamentos e inmuebles?
 14. ¿Cuales son las principales dificultades que enfrenta al conseguir clientes, coordinar visitas a los inmuebles, hacer seguimiento a los interesados y concretar las ventas en Abitares?
 ## 4. Resultados
 - [Resultados de la entrevista](../assets/resultados-entrevista.md)
-- [Mapa de empatía](../assets/mapa-empatia.png)
+- [Mapa de empatía](../assets/mapa-empatia.jpeg)
 **Hallazgo principal:** lo que más le duele al usuario es ______________________
 porque ______________________.
