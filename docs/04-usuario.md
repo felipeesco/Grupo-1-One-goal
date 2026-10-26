@@ -16,7 +16,7 @@
 proceso. No es un cliente de la organización.
 ## 2. Cómo aplicar la entrevista
 **Antes**
-1. Reemplacen [proceso], [organización] y [área] por los de su proyecto en todas
+1. Reemplacen [proceso] , [organización] y [área] por los de su proyecto en todas
 las preguntas.
 2. Escriban las preguntas 13 y 14 sobre el proceso actual de su organización.
 3. Acuerden la cita y definan quién pregunta y quién toma notas.
