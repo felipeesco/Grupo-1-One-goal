@@ -37,12 +37,12 @@ ni presenten su idea de prototipo.
 3. ¿Cómo es el lugar donde trabaja y qué herramientas utiliza para asesorar a los clientes interesados en comprar apartamentos o inmuebles, como Excel, sistemas digitales o plataformas inmobiliarias?
 4. ¿Ha visto en otra empresa inmobiliaria una forma de realizar la asesoría de ventas que le parezca mejor? ¿Cuál?
 **Oye**
-5. ¿Qué le dicen su jefe, sus compañeros o los clientes de [organización] sobre
-cómo funciona [proceso]?
-6. ¿De quién recibe instrucciones, quejas o recomendaciones sobre [proceso]?
+5. ¿Qué le dicen su jefe, sus compañeros o los clientes de Abitare sobre
+cómo funciona el proceso de asesoría y venta de apartamentos e inmuebles?
+6. ¿De quién recibe instrucciones, quejas o recomendaciones sobre la asesoría comercial y la venta de inmuebles?
 **Dice y hace**
-7. Cuénteme paso a paso qué hizo la última vez que realizó [proceso].
-8. ¿Qué hace cuando algo sale mal en [proceso]?
+7. Cuénteme paso a paso qué hizo la última vez que realizó asesoro a un cliente interesado en comprar un apartamento o inmueble en Abitare.
+8. ¿Qué hace cuando algo sale mal durante la asesoría comercial o o el proceso de venta de un inmueble?
 **Dolores**
 9. ¿Qué es lo más lento, difícil o frustrante al asesorar clientes interesados en comprar apartamentos e inmuebles?
 10. ¿Cuándo fue la última vez que tuvo un problema durante la asesoría o venta de un inmueble y qué pasó?
