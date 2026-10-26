@@ -49,8 +49,8 @@ cómo funciona [proceso]?
 **Ganancias**
 11. Si el proceso de asesoría de ventas de apartamentos y bienes raíces funcionara perfecto, ¿qué cambiaría en su día de trabajo?
 12. ¿Qué le ayudaría a ahorrar tiempo, dinero o esfuerzo al asesorar clientes y vender apartamentos o inmuebles?
-13.
-14.
+13. ¿Cómo se realiza actualmente el proceso de asesoría y venta de apartamentos e inmuebles en Abitare, desde el primer contacto con el cliente hasta el cierre de la venta?
+14. ¿Cuales son las principales dificultades que enfrenta al conseguir clientes, coordinar visitas a los inmuebles, hacer seguimiento a los interesados y concretar las ventas en Abitares?
 ## 4. Resultados
 - [Resultados de la entrevista](../assets/resultados-entrevista.md)
 - [Mapa de empatía](../assets/mapa-empatia.png)
