@@ -9,7 +9,5 @@
 | 4 | **Beneficios para el usuario:** ¿qué gana y qué dolor le quita? (sale del mapa de empatía) |Se tomarían menos precauciones y se confiaría mas en las dos partes. Una herramienta para facilitar y agilizar los pagos. |
 | 5 | **Soluciones:** mínimo 3 ideas que podrían resolver el problema. | |
 | 6 | **Hipótesis:** copien la hipótesis de `docs/07-prototipo.md`. | |
-| 7 | **Lo más importante por aprender primero:** lo que, si sale mal, hace que la
-solución no sirva. | |
-| 8 | **El menor trabajo para aprenderlo:** la prueba más sencilla con el usuario
-usando la v0.1. | |
+| 7 | **Lo más importante por aprender primero:** lo que, si sale mal, hace que la solución no sirva. | |
+| 8 | **El menor trabajo para aprenderlo:** la prueba más sencilla con el usuario usando la v0.1. | |
