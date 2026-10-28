@@ -13,4 +13,4 @@
 2. Botón para conectar la billetera (tipo MetaMask) en red de prueba.
 3. Botón para hacer el pago del apartado y ver si quedó  confirmado. 
 **Evidencia:**
-![Prototipo v0.1](../assets/prototipo-v01.png)
+![Prototipo v0.1](../prototipo/entrega2.md)
