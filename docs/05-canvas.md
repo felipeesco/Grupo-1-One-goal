@@ -3,8 +3,7 @@
 ## Bloques del Lean UX Canvas
 | # | Bloque | Respuesta del equipo |
 |---|---|---|
-| 1 | **Problema de negocio:** ¿qué le pasa a la organización con el proceso que eligieron? |El proceso actual de recaudo de pagos y legalización de cierres en la venta de inmuebles es lento y genera desconfianza en los clientes. Esto afecta el flujo de caja de la inmobiliaria y dilata el tiempo de cierre de las transacciones.
-|
+| 1 | **Problema de negocio:** ¿qué le pasa a la organización con el proceso que eligieron? |El proceso actual de recaudo de pagos y legalización de cierres en la venta de inmuebles es lento y genera desconfianza en los clientes. Esto afecta el flujo de caja de la inmobiliaria y dilata el tiempo de cierre de las transacciones.|
 | 2 | **Resultados de negocio:** ¿qué mejora en la organización si se resuelve? (tiempo, costos, errores, quejas, ventas) | • Reducir en un [X]% el tiempo de procesamiento y confirmación de los desembolsos financieros.
  • Disminuir a cero los errores o fraudes en las transacciones de pago.
  • Incrementar el índice de satisfacción y percepción de seguridad de los clientes durante el cierre de compra.
