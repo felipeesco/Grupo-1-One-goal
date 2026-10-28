@@ -1,5 +1,5 @@
 # 05 · Canvas del proyecto
-![Canvas del proyecto](../assets/canvas.png)
+![Canvas del proyecto](../assets/Canvasdelproyecto.jpg)
 ## Bloques del Lean UX Canvas
 | # | Bloque | Respuesta del equipo |
 |---|---|---|
