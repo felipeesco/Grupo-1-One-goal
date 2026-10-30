@@ -8,7 +8,7 @@ Qué cambia en el proceso con la solución (máximo 5 líneas):
 
 Hoy el cliente transfiere el apartado por el banco y envía el comprobante por WhatsApp, y el asesor lo revisa a mano mientras el inmueble sigue disponible para otros. Con la solución, el asesor comparte un enlace y el cliente paga el apartado con criptomonedas desde su billetera en una página web. El pago queda registrado en un contrato inteligente que bloquea el inmueble al instante, así no se puede ofrecer a dos clientes. El asesor deja de revisar comprobantes y verifica el estado del pago en un monitor en vivo. Con esa verificación confirma el apartado al cliente de inmediato.
 
-Flujo de información
+Flujo de informacion
 
 Flujo de información
 
