@@ -1,6 +1,6 @@
 Proceso actual <br>
 1. BPMN de práctica <br>
-![BPMN de práctica](../assets/BPMN_PRACTICA#3.png) <br>
+![BPMN de práctica](../assets/BPMN_PRACTICA_3.png) <br>
 Declaración de IA: <br>
 [herramienta y versión] – [dd/mm/aaaa] – prompt registrado en docs/11-uso-ia.md <br>
 <br>
