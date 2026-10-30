@@ -1,6 +1,6 @@
 06 · Solución y flujo de información <br>
 <br>
-¡[Flujo de informacion](../assets/flujo-informacion-security.png)
+![Flujo de información](../assets/flujo-informacion-security.png)
 <br>
 Solución propuesta
 
