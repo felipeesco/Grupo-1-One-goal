@@ -17,7 +17,7 @@ Fuente (contacto, cargo y fecha): Asesor comercial de Abitare, familiar de la du
 Decisión: [¿El pago llegó?]Sí: [Tarea si Sí]. Confirmar el apartado al cliente.No:Pedir de nuevo el comprobante. [Tarea si No]. <br>
 <br>
 4. Diagrama BPMN <br>
-![BPMN proceso actual](../assets/abitare_apartado_bpmn.png) <br>
+![BPMN proceso actual](..assets/abitare_apartado_bpmn.png) <br>
 Archivo editable: [bpmn-actual.bpmn](../assets/bpmn-actual.bpmn) <br>
 <br>
 5. Puntos críticos <br>
