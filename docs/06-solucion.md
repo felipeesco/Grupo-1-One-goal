@@ -1,4 +1,7 @@
-06 · Solución y flujo de información
+06 · Solución y flujo de información <br>
+<br>
+¡[Flujo de informacion](../assets/flujo-informacion-security.png)
+<br>
 Solución propuesta
 
 Qué cambia en el proceso con la solución (máximo 5 líneas):
