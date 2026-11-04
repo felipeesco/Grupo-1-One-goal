@@ -2,3 +2,4 @@
 Proyecto trend tech 2026
 Felipe Escobar vocero
 thomas rusinque- líder 
+Matias Berdugo - Investigador
