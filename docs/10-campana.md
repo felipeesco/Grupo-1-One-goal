@@ -43,7 +43,7 @@ Elegimos el tercero porque es breve, habla directamente al cliente y resume los 
 El logo es una moneda dorada con una casa en el centro. Representa el pago con criptomonedas y el inmueble que queda apartado y protegido.
 El negro de "ONE" transmite solidez y confianza, y el amarillo dorado de "GOAL" transmite valor e innovación.
 
-![Logo](../assets/campana/logo.png)
+![Logo](../assets/campana/logo (4).svg)
 
 ## 5. Stickers de lanzamiento
 
@@ -56,5 +56,5 @@ Para el lanzamiento entregaremos a los asistentes una hoja de **12 stickers de 5
 
 Con el sticker, el cliente se lleva la marca y puede abrir el prototipo desde su celular.
 
-![Hoja de stickers](../assets/campana/hoja-stickers.png)
+![Hoja de stickers](../assets/campana/hoja-stickers (3).pdf)
 
