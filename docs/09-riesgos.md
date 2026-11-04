@@ -1,6 +1,6 @@
 # 09 · Gestión de riesgos
 
-En este documento presentamos la matriz de riesgos de implementar en Abitare la solución de pago del apartado de inmuebles con criptomonedas. La solución se compone de una página web, una billetera digital tipo MetaMask y un contrato inteligente en red de prueba. Para valorar los riesgos tuvimos en cuenta que la solución maneja datos de usuario y medios de pago en criptomonedas. También que la usarán a diario el cliente y la empresa, y que el presupuesto del proyecto es de cero pesos, por lo que trabajamos solo con herramientas gratuitas.
+En este documento presentamos la matriz de riesgos a implementar en Abitare la solución de pago del apartado de inmuebles con criptomonedas. La solución se compone de una página web, una billetera digital tipo MetaMask y un contrato inteligente en red de prueba. Para valorar los riesgos tuvimos en cuenta que la solución maneja datos de usuario y medios de pago en criptomonedas. También que la usarán a diario el cliente y la empresa, y que el presupuesto del proyecto es de cero pesos, por lo que trabajamos solo con herramientas gratuitas.
 
 Calculamos el nivel de cada riesgo como **probabilidad (1-5) × impacto (1-5)**. Lo clasificamos así: 1-4 bajo, 5-9 medio, 10-16 alto y 20-25 crítico.
 
