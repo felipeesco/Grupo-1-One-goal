@@ -43,7 +43,7 @@ Elegimos el tercero porque es breve, habla directamente al cliente y resume los 
 El logo es una moneda dorada con una casa en el centro. Representa el pago con criptomonedas y el inmueble que queda apartado y protegido.
 El negro de "ONE" transmite solidez y confianza, y el amarillo dorado de "GOAL" transmite valor e innovación.
 
-![Logo](../assets/logo (4).svg
+![Logo](../assets/logo.png)
 ## 5. Stickers de lanzamiento
 
 Para el lanzamiento entregaremos a los asistentes una hoja de **12 stickers de 5 × 5 cm**, organizados en 3 columnas por 4 filas. Cada sticker incluye:
