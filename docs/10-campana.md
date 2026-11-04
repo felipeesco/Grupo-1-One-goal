@@ -55,5 +55,5 @@ Para el lanzamiento entregaremos a los asistentes una hoja de **12 stickers de 5
 
 Con el sticker, el cliente se lleva la marca y puede abrir el prototipo desde su celular.
 
-![Hoja de stickers](../assets/campana/hoja-stickers.svg)
+![Hoja de stickers](../assets/hoja-stickers.svg)
 
