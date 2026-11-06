@@ -36,25 +36,105 @@ Un registro por cada uso. Si se hizo una conversación larga con la misma herram
 
 ### Registro 2
 
-- Fecha: completar
-- Herramienta: completar (nombre, versión y compañía)
-- Quién la usó: completar
-- Prompt: completar
-- Para qué se usó: completar
-- Tipo de uso según el Acuerdo: completar
-- Revisión del equipo: completar
+- Fecha: 19 de octubre de 2026
+- Herramienta: Claude, creado por Anthropic (versión: confirmar en el chat)
+- Quién la usó: Felipe Escobar
+- Prompt: "me faltan estos puntos de mi proyecto de trend and tech es utilizabdo la pagina github no entiendo muy bien que debo hacer ayudame" (con capturas de las diapositivas de la tarea). En la misma conversación se pidió el texto de los issues.
+- Para qué se usó: entender cómo organizar el proyecto en GitHub (tablero Kanban, campos, etiquetas, hitos y colaboradores) y redactar la descripción de los issues 06, 07, 09, 10, 11, 15 y 16.
+- Tipo de uso según el Acuerdo: redactado con herramienta de IA
+- Revisión del equipo: el equipo creó el tablero y los issues en GitHub y pegó los textos. Los datos del proyecto (Abitare, el asesor comercial, el pago con cripto) los dio el equipo.
 
 ### Registro 3
 
-- Fecha: completar
-- Herramienta: completar (nombre, versión y compañía)
-- Quién la usó: completar
-- Prompt: completar
-- Para qué se usó: completar
-- Tipo de uso según el Acuerdo: completar
-- Revisión del equipo: completar
+- Fecha: 23 de octubre de 2026
+- Herramienta: Claude, modelo Opus 5.5, creado por Anthropic
+- Quién la usó: Felipe Escobar
+- Prompt: "Entregar archivos en xml para abrirlo en draw.io y el archivo p ng" (con la descripción del caso). El prompt de trabajo que quedó en docs/03-proceso-actual.md es: "Actúa como analista de procesos. A partir de esta descripción del proceso de Abitare (cobro del apartado con transferencia bancaria y comprobante por WhatsApp), genera un diagrama BPMN 2.0 con carriles por responsable, eventos de inicio y fin, tareas y compuertas. Entrega el resultado en XML BPMN para importarlo en bpmn.io."
+- Para qué se usó: hacer los diagramas BPMN (el de práctica y el del proceso actual de Abitare) en archivos .drawio, .bpmn y PNG, y llenar la plantilla de docs/03-proceso-actual.md.
+- Tipo de uso según el Acuerdo: desarrollo por herramienta de IA (diagramas) y redactado con herramienta de IA (texto del proceso actual)
+- Revisión del equipo: la descripción del proceso salió de lo que contó el asesor. La IA dejó espacios para la fecha de la entrevista y las evidencias de los puntos críticos, que debía completar el equipo.
 
-Copien el bloque del Registro 3 las veces que haga falta. Si algún archivo del repositorio se hizo con ayuda de IA (por ejemplo el guion de las revoluciones industriales, los perfiles del equipo o las imágenes de la carpeta assets), cada uno debería tener su registro aquí.
+### Registro 4
+
+- Fecha: 26 de octubre de 2026
+- Herramienta: Claude, creado por Anthropic (versión: confirmar en el chat)
+- Quién la usó: Felipe Escobar
+- Prompt: "Pasamelo en png" (con las respuestas de la entrevista al asesor).
+- Para qué se usó: pasar a imagen PNG el mapa de empatía del asesor comercial (piensa y siente, ve, oye, dice y hace, dolores y ganancias).
+- Tipo de uso según el Acuerdo: desarrollo por herramienta de IA (la imagen); el contenido son frases de la entrevista hecha por el equipo
+- Revisión del equipo: las frases del mapa son de la entrevista. La IA solo corrigió tildes y una palabra mal escrita. Ver assets/mapa-empatia.jpeg.
+
+### Registro 5
+
+- Fecha: 27 de octubre de 2026
+- Herramienta: Claude, creado por Anthropic (versión: confirmar en el chat)
+- Quién la usó: Felipe Escobar
+- Prompt: Se envió una captura del enunciado del issue y luego: "Tengo que hacer eso".
+- Para qué se usó: redactar la hipótesis del prototipo (creemos que… lo sabremos cuando…) y el alcance de la versión 0.1.
+- Tipo de uso según el Acuerdo: redactado con herramienta de IA
+- Revisión del equipo: la hipótesis se armó con la idea del proyecto que ya tenía el equipo. El texto final está en docs/07-prototipos.md.
+
+### Registro 6
+
+- Fecha: 28 de octubre de 2026
+- Herramienta: Claude, creado por Anthropic (versión: confirmar en el chat)
+- Quién la usó: Felipe Escobar
+- Prompt: "Cambiame esto con lo referente a la empreaa" (con el texto de docs/07-prototipos.md, que todavía tenía el ejemplo de una panadería).
+- Para qué se usó: cambiar el ejemplo de la plantilla por la información de Abitare: qué se va a construir, tipo de prototipo, usuario, hipótesis y versión 0.1.
+- Tipo de uso según el Acuerdo: corregido con herramienta de IA
+- Revisión del equipo: el equipo revisó el texto y lo subió al repositorio (commits del 28 de octubre en docs/07-prototipos.md).
+
+### Registro 7
+
+- Fecha: 28 de octubre de 2026
+- Herramienta: Claude, creado por Anthropic (versión: confirmar en el chat)
+- Quién la usó: Felipe Escobar
+- Prompt: Se pegó la plantilla "Prompt estructurado — Prototipo Figma" que dio el profesor (rol, organización, proyecto, referencia, entregable y validación) para llenarla con los datos de Abitare. Después se pidió: "damelo en un archivo" y un mockup de la página.
+- Para qué se usó: llenar la plantilla del prompt para Figma con los datos de Abitare y hacer un mockup de la página (inicio, detalle del inmueble con el pago del apartado y vista del asesor).
+- Tipo de uso según el Acuerdo: redactado con herramienta de IA (prompt) y desarrollo por herramienta de IA (mockup)
+- Revisión del equipo: los datos de Abitare son del README del equipo. Los colores, precios y nombres de inmuebles del mockup son de ejemplo. Ver prototipo/Abitare – Mockup web – 1. Inicio.html.
+
+### Registro 8
+
+- Fecha: 28 de octubre de 2026
+- Herramienta: Claude, creado por Anthropic (versión: confirmar en el chat)
+- Quién la usó: Felipe Escobar
+- Prompt: "ayudame con esta presentacion sobre abitare" (con la plantilla Plantilla_Pitch_TrendTech_2).
+- Para qué se usó: llenar la plantilla del pitch con el contenido de los documentos del repositorio.
+- Tipo de uso según el Acuerdo: redactado con herramienta de IA
+- Revisión del equipo: el contenido sale de los docs del equipo. La presentación se subió al repositorio el 29 de octubre.
+
+### Registro 9
+
+- Fecha: 4 de noviembre de 2026
+- Herramienta: Claude, creado por Anthropic (versión: confirmar en el chat)
+- Quién la usó: Felipe Escobar
+- Prompt: "tengo que hacer estos dos puntos del archivo que te mande" (con el archivo de la tarea).
+- Para qué se usó: hacer un borrador de la gestión de riesgos (matriz y mapa de calor) y de la validación del prototipo (comparación de métodos de Lean UX y plan de prueba).
+- Tipo de uso según el Acuerdo: redactado con herramienta de IA
+- Revisión del equipo: la versión de docs/09-riesgos.md que está en el repositorio es distinta del borrador de la IA. Los datos de la prueba con el asesor (fecha, lugar y resultados) los pone el equipo en docs/08-validacion.md.
+
+### Registro 10
+
+- Fecha: 5 de noviembre de 2026
+- Herramienta: Claude, modelo Opus 5.5, creado por Anthropic
+- Quién la usó: Felipe Escobar
+- Prompt: "necesito que quede listo el proyecto de trend and tech de la pwigan web con el blocj¿k chein que se pueda pagar con criptomonedas ayudame con eso"
+- Para qué se usó: hacer la página del prototipo v1.0: catálogo de inmuebles y pago del apartado con criptomonedas, con una simulación de MetaMask y la opción de red de prueba; también el código QR para abrirla.
+- Tipo de uso según el Acuerdo: desarrollo por herramienta de IA
+- Revisión del equipo: la idea, el flujo y los requisitos son del equipo (hipótesis y versiones 0.1 y 0.5). El código quedó en prototipo/index.html (commit del 5 de noviembre, firmado como coautor por Claude).
+
+### Registro 11
+
+- Fecha: 6 de noviembre de 2026
+- Herramienta: Claude, modelo Opus 5.5, creado por Anthropic
+- Quién la usó: Felipe Escobar
+- Prompt: "toma todos los registros del proyecto de one goal y completa la declaracion de la ia"
+- Para qué se usó: llenar los registros de este documento a partir del historial de chats y de commits del proyecto.
+- Tipo de uso según el Acuerdo: redactado con herramienta de IA
+- Revisión del equipo: falta que cada integrante revise sus registros y agregue los usos de IA que haya hecho desde su propia cuenta.
+
+Los registros 2 a 11 salen de los chats de Felipe Escobar con Claude y del historial de commits. Si Thomas, Matias o Camila usaron IA desde sus cuentas (por ejemplo en el guion de las revoluciones, la campaña o el logo), deben agregar su registro con el mismo formato.
 
 ## Checklist antes de cerrar el issue
 

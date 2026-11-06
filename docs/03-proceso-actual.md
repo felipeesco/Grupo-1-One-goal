@@ -2,7 +2,7 @@ Proceso actual <br>
 1. BPMN de práctica <br>
 ![BPMN de práctica](../assets/BPMN_PRACTICA_3.png) <br>
 Declaración de IA: <br>
-[herramienta y versión] – [dd/mm/aaaa] – prompt registrado en docs/11-uso-ia.md <br>
+Claude Opus 5.5 (Anthropic) – 23/10/2026 – prompt registrado en docs/11-uso-ia.md (Registro 3) <br>
 <br>
 2. El proceso elegido <br>
 Nombre del proceso: Cobro del apartado de un inmueble en Abitare, desde que el cliente decide separarlo hasta que el asesor confirma que el pago llegó. <br>
