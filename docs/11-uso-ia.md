@@ -177,14 +177,6 @@ Un registro por cada uso. Si fue una conversación larga con la misma herramient
 
 Los registros 2 a 13 (menos el 1) salen de los chats de Felipe Escobar con Claude y del historial de commits. Si Thomas, Matias o Camila usaron IA desde sus cuentas (por ejemplo en el guion de las revoluciones, la campaña, el logo, la hoja de stickers o el pitch), deben agregar su registro con el mismo formato y sumarlo a la tabla de resumen.
 
-## Checklist antes de cerrar el issue
-
-- [ ] Cada registro tiene los seis datos: fecha, herramienta con versión y compañía, prompt, para qué se usó, tipo de uso y revisión del equipo.
-- [ ] Las versiones que dicen "confirmar en el chat" ya tienen el modelo real.
-- [ ] Ningún prompt tiene nombres completos de terceros, datos de contacto, contraseñas ni información confidencial.
-- [ ] Lo que hizo la IA se comparó con fuentes confiables antes de entrar al proyecto.
-- [ ] Quedan guardadas las versiones anteriores de los documentos donde se usó IA (el historial de commits sirve para esto).
-- [ ] Los documentos que se entregan al profesor tienen su declaración de uso de IA.
 
 ## Fuentes
 
