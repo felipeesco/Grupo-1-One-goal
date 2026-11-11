@@ -1,6 +1,6 @@
 # 13 · FELICOIN, el medio de pago de Abitare
 
-![FELICOIN](../assets/felicoin.png)
+![FELICOIN](../assets/FELICOIN.3mf)
 
 ## 1. Qué es
 
@@ -62,7 +62,7 @@ Como elemento de campaña (actividad FabLab) se imprime en 3D una moneda FELICOI
 - **Anverso:** nombre FELICOIN, casa con cerradura (inmueble apartado y seguro), pistas de circuito y «ONE GOAL · ABITARE».
 - **Reverso:** bloques hexagonales encadenados (blockchain), el símbolo ₣ y el eslogan «Tu inmueble, apartado y seguro».
 
-Archivos: `assets/felicoin_unica_1color.stl` (un color) y `assets/FELICOIN.3mf` (dos colores).
+Archivos: `assets/felicoin_llavero_35mm.stl` (un color) y `assets/FELICOIN.3mf` (dos colores).
 
 ## 6. Siguientes pasos
 
