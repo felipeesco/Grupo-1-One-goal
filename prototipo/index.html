@@ -208,6 +208,34 @@
   .barra div{height:100%;width:0;background:#4FB396;border-radius:999px;transition:width .4s ease}
   .b-exito{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
   .b-exito .check{width:60px;height:60px;border-radius:999px;background:#4FB396;display:flex;align-items:center;justify-content:center}
+  .btn-billetera{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 14px;border-radius:999px;border:1.5px solid var(--verde);background:var(--verde);color:var(--sobre-verde);font-weight:700;font-size:15px;cursor:pointer}
+  .btn-billetera:hover{background:var(--verde-osc);border-color:var(--verde-osc)}
+  .btn-billetera.vinculada{background:var(--superficie);color:var(--texto);border-color:var(--borde-2)}
+  .btn-billetera.vinculada:hover{border-color:var(--verde)}
+  .btn-billetera-dir{font-size:12px;color:var(--texto-3)}
+  .mini-flc{width:22px;height:22px;border-radius:999px;background:#A9781C;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:800}
+  .op-cripto.destacada{border-color:#A9781C;background:linear-gradient(0deg,rgba(169,120,28,.12),rgba(169,120,28,.12)),var(--billetera-2)}
+  .b-sitio{margin:0;display:inline-flex;align-self:flex-start;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--billetera-texto-2);background:var(--billetera-2);border:1px solid var(--billetera-borde);border-radius:999px;padding:4px 12px 4px 4px}
+  .b-sitio-logo{width:24px;height:24px;border-radius:999px;background:#4FB396;color:#0E1714;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:12px}
+  .permisos{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:14px}
+  .permisos li{display:flex;align-items:center;gap:10px}
+  .permisos li::before{content:"✓";width:20px;height:20px;border-radius:999px;background:#4FB396;color:#0E1714;font-size:12px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+  .cambio-red{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;background:var(--billetera-2);border:1px solid var(--billetera-borde);border-radius:14px;padding:14px;font-size:14px;color:var(--billetera-texto-2)}
+  .cambio-red strong{color:var(--billetera-texto)}
+  .b-mensaje{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font-family:var(--mono);font-size:12.5px;line-height:1.6;background:var(--billetera-2);border:1px solid var(--billetera-borde);border-radius:12px;padding:14px;color:var(--billetera-texto)}
+  .b-saldo{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;background:linear-gradient(0deg,rgba(169,120,28,.14),rgba(169,120,28,.14)),var(--billetera-2);border:1px solid #6B5320;border-radius:16px;padding:16px}
+  .b-saldo span{font-size:12.5px;color:var(--billetera-texto-2)}
+  .b-saldo strong{font-family:var(--mono);font-size:28px;font-weight:600;color:#F0C27A;font-variant-numeric:tabular-nums}
+  .b-subtitulo{margin:0 0 8px;font-size:13px;font-weight:700;color:var(--billetera-texto-2)}
+  .movimientos{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;background:var(--billetera-2);border:1px solid var(--billetera-borde);border-radius:14px}
+  .movimientos li{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 14px;font-size:13px;border-bottom:1px solid var(--billetera-borde)}
+  .movimientos li:last-child{border-bottom:0}
+  .movimientos li > span:first-child{display:flex;flex-direction:column;min-width:0}
+  .movimientos li > span:first-child span{font-size:11.5px;color:var(--billetera-texto-2)}
+  .movimientos .mas{color:#4FB396;font-weight:800;white-space:nowrap;font-variant-numeric:tabular-nums}
+  .movimientos .menos{color:#F0A08A;font-weight:800;white-space:nowrap;font-variant-numeric:tabular-nums}
+  .girar-suave{animation:latido 1.1s ease-in-out infinite}
+  @keyframes latido{50%{transform:scale(1.08)}}
   .b-pie{padding:12px 18px;border-top:1px solid var(--billetera-borde);font-size:12px;color:var(--billetera-texto-2);text-align:center}
 
   @media (max-width:600px){
@@ -233,6 +261,7 @@
         <a href="#inmuebles">Inmuebles</a>
         <a href="#como-funciona">Cómo funciona</a>
         <a href="#asesor" class="btn-borde">Panel del asesor</a>
+        <button type="button" class="btn-billetera" id="btn-billetera"></button>
       </div>
     </nav>
   </div>
@@ -246,7 +275,7 @@
         <div class="hero-texto">
           <span class="etiqueta etq-verde" style="align-self:flex-start">Prototipo · red de prueba</span>
           <h1>Separa tu inmueble y paga el apartado desde tu billetera digital</h1>
-          <p>Eliges la criptomoneda, firmas la transacción y un contrato inteligente confirma el pago, registra el inmueble y la fecha, y lo deja bloqueado para otros clientes.</p>
+          <p>Vinculas tu billetera, pagas con FELICOIN (1 FLC = $1.000) o con otra criptomoneda, y un contrato inteligente confirma el pago, registra el inmueble y la fecha, y lo deja bloqueado para otros clientes.</p>
           <div class="cripto-fila" id="chips-cripto" aria-label="Criptomonedas aceptadas"></div>
           <div class="acciones">
             <button type="button" class="btn btn-primario" id="btn-simular-hero">Simular separación de un inmueble</button>
@@ -273,8 +302,8 @@
         <h2>Cómo funciona</h2>
         <p class="intro">Ya no hace falta enviar el comprobante de la transferencia por WhatsApp y esperar a que el asesor lo revise a mano.</p>
         <div class="grid">
-          <div class="paso"><span class="num">1</span><h3>Toca “Separar”</h3><p>Se abre tu billetera digital con el valor del apartado del inmueble.</p></div>
-          <div class="paso"><span class="num">2</span><h3>Elige la cripto y firma</h3><p>Pagas en Bitcoin, Ethereum, USDT, USDC o Solana, sobre una red de prueba.</p></div>
+          <div class="paso"><span class="num">1</span><h3>Vincula tu billetera</h3><p>Conectas MetaMask u otra billetera y firmas para vincularla a Abitare. Firmar no cuesta nada.</p></div>
+          <div class="paso"><span class="num">2</span><h3>Separa y elige la moneda</h3><p>Pagas con FELICOIN, la moneda de Abitare (valor fijo y sin comisión), o con Bitcoin, Ethereum, USDT, USDC o Cardano, en red de prueba.</p></div>
           <div class="paso"><span class="num">3</span><h3>El contrato confirma</h3><p>El contrato inteligente registra el pago y deja el inmueble bloqueado.</p></div>
         </div>
       </div>
@@ -353,7 +382,7 @@
       </div>
       <div class="acciones">
         <a class="btn btn-primario" href="#inmuebles">Simular otro apartado</a>
-        <button type="button" class="btn btn-secundario" id="btn-reiniciar">Reiniciar demo (liberar inmuebles)</button>
+        <button type="button" class="btn btn-secundario" id="btn-reiniciar">Reiniciar demo (liberar inmuebles y billetera)</button>
       </div>
     </div>
   </div>
@@ -413,15 +442,25 @@ const INMUEBLES = [
     desc: "Apartamento en piso alto con balcón y vista a la ciudad y los cerros. Sala comedor iluminada, cocina con mesón en granito y conjunto con piscina, gimnasio y parque infantil." }
 ];
 
-// Criptomonedas aceptadas. Las tasas (pesos por 1 unidad) y comisiones son DE EJEMPLO, solo para la simulación.
+// Monedas aceptadas. tasa = pesos por 1 unidad.
+// FELICOIN: valor fijo 1 FLC = $1.000 COP (docs/13-felicoin.md).
+// Las demás: precios de referencia de la primera semana de noviembre de 2026 (docs/13-felicoin.md, dólar a $3.235). Comisiones de ejemplo.
 const CRIPTOS = [
-  { id: "BTC",  nombre: "Bitcoin",  red: "Bitcoin testnet",  color: "#E8892B", tasa: 400000000, decimales: 6, comision: 0.00002, confirmaciones: 3 },
-  { id: "ETH",  nombre: "Ethereum", red: "Ethereum Sepolia", color: "#5B6EC9", tasa: 14000000,  decimales: 5, comision: 0.0004,  confirmaciones: 3 },
-  { id: "USDT", nombre: "Tether",   red: "Ethereum Sepolia", color: "#26A17B", tasa: 4000,      decimales: 2, comision: 1.5,     confirmaciones: 3 },
-  { id: "USDC", nombre: "USD Coin", red: "Ethereum Sepolia", color: "#2775CA", tasa: 4000,      decimales: 2, comision: 1.5,     confirmaciones: 3 },
-  { id: "SOL",  nombre: "Solana",   red: "Solana devnet",    color: "#7B4FD6", tasa: 700000,    decimales: 4, comision: 0.00001, confirmaciones: 2 }
+  { id: "FLC",  nombre: "FELICOIN", red: "Ethereum Sepolia", color: "#A9781C", simbolo: "₣", tasa: 1000,      decimales: 0, comision: 0,       confirmaciones: 2, fija: true },
+  { id: "BTC",  nombre: "Bitcoin",  red: "Bitcoin testnet",  color: "#E8892B", tasa: 249000000, decimales: 6, comision: 0.00002, confirmaciones: 3 },
+  { id: "ETH",  nombre: "Ethereum", red: "Ethereum Sepolia", color: "#5B6EC9", tasa: 7300000,   decimales: 5, comision: 0.0004,  confirmaciones: 3 },
+  { id: "USDT", nombre: "Tether",   red: "Ethereum Sepolia", color: "#26A17B", tasa: 3235,      decimales: 2, comision: 1.5,     confirmaciones: 3 },
+  { id: "USDC", nombre: "USD Coin", red: "Ethereum Sepolia", color: "#2775CA", tasa: 3235,      decimales: 2, comision: 1.5,     confirmaciones: 3 },
+  { id: "ADA",  nombre: "Cardano",  red: "Cardano preprod",  color: "#1D4FA8", tasa: 630,       decimales: 2, comision: 0.17,    confirmaciones: 2 }
 ];
 const CONTRATO_ABITARE = "0xAb17a2E000000000000000000000000000C0ntr"; // dirección ficticia del contrato
+const SALDO_INICIAL_FLC = 6000;   // saldo de prueba que "carga el asesor" al vincular (simulación)
+const PREMIO_BIENVENIDA_FLC = 20; // primer apartado pagado con FLC (docs/13-felicoin.md)
+const APPS_BILLETERA = [
+  { id: "metamask", nombre: "MetaMask", detalle: "Extensión del navegador o app", color: "#E2761B", letra: "M" },
+  { id: "onegoal", nombre: "Billetera One Goal", detalle: "Billetera de Abitare para FELICOIN", color: "#1F5E4E", letra: "₣" },
+  { id: "walletconnect", nombre: "WalletConnect", detalle: "Escanea con la app de tu celular", color: "#3B82F6", letra: "W" }
+];
 
 /* ---------- Utilidades ---------- */
 const $ = (id) => document.getElementById(id);
@@ -430,11 +469,12 @@ const corta = (t) => t ? t.slice(0, 6) + "…" + t.slice(-4) : "";
 const escapar = (t) => String(t).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const pesos = (n) => "$" + Math.round(n).toLocaleString("es-CO") + " COP";
 const num = (n, d) => n.toLocaleString("es-CO", { minimumFractionDigits: d, maximumFractionDigits: d });
+const flc = (n) => "₣ " + num(n, 0) + " FLC";
 const montoEn = (c) => tx.inmueble.apartado / c.tasa;
-const icono = (c, extra) => `<span class="moneda" style="background:${c.color}${extra || ""}" aria-hidden="true">${c.id.slice(0, 4)}</span>`;
+const icono = (c, extra) => `<span class="moneda" style="background:${c.color}${extra || ""}" aria-hidden="true">${c.simbolo || c.id.slice(0, 4)}</span>`;
 function direccionPara(c) {
   if (c.id === "BTC") return "tb1q" + hexAzar(38);
-  if (c.id === "SOL") return Array.from({ length: 44 }, () => "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"[Math.floor(Math.random() * 58)]).join("");
+  if (c.id === "ADA") return "addr_test1" + Array.from({ length: 50 }, () => "023456789acdefghjklmnpqrstuvwxyz"[Math.floor(Math.random() * 32)]).join("");
   return "0x" + hexAzar(40);
 }
 
@@ -606,30 +646,68 @@ function navegar() {
 function refrescar() { navegar(); }
 
 /* =========================================================
-   VENTANA DE LA BILLETERA — flujo del pago simulado
-   1. Elegir cripto → 2. Revisar y firmar → 3. Enviando / confirmaciones → 4. Listo
+   BILLETERA VINCULADA (simulada) — se guarda en este navegador
    ========================================================= */
-let tx = null;          // datos de la transacción en curso
+const CLAVE_BILLETERA = "abitare_billetera_v1";
+let billeteraMemoria = null;
+function leerBilletera() { try { const t = localStorage.getItem(CLAVE_BILLETERA); return t ? JSON.parse(t) : billeteraMemoria; } catch (e) { return billeteraMemoria; } }
+function guardarBilletera(b) {
+  billeteraMemoria = b;
+  try { if (b) localStorage.setItem(CLAVE_BILLETERA, JSON.stringify(b)); else localStorage.removeItem(CLAVE_BILLETERA); } catch (e) {}
+  actualizarBotonBilletera();
+}
+function movimiento(b, texto, monto) {
+  b.movimientos.unshift({ texto, monto, fecha: new Date().toLocaleString("es-CO", { dateStyle: "short", timeStyle: "short" }) });
+  b.movimientos = b.movimientos.slice(0, 6);
+}
+function actualizarBotonBilletera() {
+  const b = leerBilletera();
+  const btn = $("btn-billetera");
+  if (b) {
+    btn.classList.add("vinculada");
+    btn.innerHTML = `<span class="mini-flc" aria-hidden="true">₣</span><span>${num(b.saldo, 0)} FLC</span><span class="mono btn-billetera-dir">${corta(b.direccion)}</span>`;
+    btn.setAttribute("aria-label", `Mi billetera: ${num(b.saldo, 0)} FELICOIN, cuenta ${corta(b.direccion)}`);
+  } else {
+    btn.classList.remove("vinculada");
+    btn.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M16 12.5h2"/><path d="M3 9h15"/></svg><span>Vincular billetera</span>`;
+    btn.removeAttribute("aria-label");
+  }
+}
+
+/* =========================================================
+   VENTANA DE LA BILLETERA
+   Vincular: elegir app → permisos → red → firmar → listo
+   Pagar:    elegir moneda → revisar y firmar → confirmaciones → listo
+   ========================================================= */
+let tx = null;          // pago en curso (si hay uno)
+let vinculo = null;     // vinculación en curso
 let temporizadores = [];
 let enviando = false;
 let ultimoFoco = null;
 
+function mostrarVentana() {
+  if (!$("velo").hidden) return;
+  ultimoFoco = document.activeElement;
+  $("velo").hidden = false;
+  document.body.classList.add("modal-abierto");
+}
+
 function abrirBilletera(idInmueble) {
   const inmueble = INMUEBLES.find((i) => i.id === idInmueble);
   if (!inmueble) return;
-  ultimoFoco = document.activeElement;
-  tx = { inmueble, cliente: "" };
-  $("velo").hidden = false;
-  document.body.classList.add("modal-abierto");
-  if (leerApartados()[inmueble.id]) pantallaBloqueado(); else pantallaElegir();
+  tx = { inmueble, cliente: (leerBilletera() || {}).nombre || "" };
+  mostrarVentana();
+  if (leerApartados()[inmueble.id]) pantallaBloqueado();
+  else if (!leerBilletera()) pantallaVincular();
+  else pantallaElegir();
 }
 
 function cerrarBilletera() {
-  if (enviando) return; // no se puede cerrar mientras la transacción se procesa
+  if (enviando) return; // no se cierra mientras algo se procesa
   temporizadores.forEach(clearTimeout); temporizadores = [];
   $("velo").hidden = true;
   document.body.classList.remove("modal-abierto");
-  tx = null;
+  tx = null; vinculo = null;
   refrescar();
   if (ultimoFoco && ultimoFoco.isConnected) ultimoFoco.focus();
 }
@@ -641,6 +719,229 @@ function pintar(html, red) {
   if (f) f.focus();
 }
 
+function progreso(titulo, subtitulo, pasos, alTerminar, red) {
+  enviando = true;
+  $("b-cerrar").disabled = true;
+  pintar(`
+    <h2 class="b-titulo" id="b-titulo">${titulo}</h2>
+    <p class="b-texto">${subtitulo}</p>
+    <div class="barra" aria-hidden="true"><div id="b-barra"></div></div>
+    <ol class="progreso" id="b-progreso" role="status" aria-live="polite">
+      ${pasos.map((p) => `<li><span class="marca" aria-hidden="true"></span>${p}</li>`).join("")}
+    </ol>`, red);
+  const items = [...$("b-progreso").children];
+  items.forEach((li, k) => {
+    temporizadores.push(setTimeout(() => {
+      if (k > 0) items[k - 1].className = "hecho";
+      li.className = "activo";
+      $("b-barra").style.width = Math.round((k / items.length) * 100) + "%";
+    }, k * 800));
+  });
+  temporizadores.push(setTimeout(() => {
+    items[items.length - 1].className = "hecho";
+    $("b-barra").style.width = "100%";
+    enviando = false;
+    $("b-cerrar").disabled = false;
+    alTerminar();
+  }, items.length * 800 + 250));
+}
+
+function cuentaHTML(b) {
+  return `<div class="b-cuenta"><span class="b-avatar" aria-hidden="true"></span><span>${escapar(b.app)} · <span class="mono">${corta(b.direccion)}</span></span></div>`;
+}
+
+/* ---------- 1. Vincular la billetera ---------- */
+function pantallaVincular() {
+  pintar(`
+    <h2 class="b-titulo" id="b-titulo">Vincula tu billetera</h2>
+    <p class="b-texto">${tx ? `Para separar <strong>${escapar(tx.inmueble.nombre)}</strong> primero` : "Primero"} vincula una billetera a tu cuenta de Abitare. Con ella pagas con FELICOIN o con otra criptomoneda.</p>
+    <ul class="lista-cripto">
+      ${APPS_BILLETERA.map((a) => `
+        <li><button type="button" class="op-cripto" data-app="${a.id}">
+          <span class="moneda" style="background:${a.color};width:36px;height:36px;font-size:15px" aria-hidden="true">${a.letra}</span>
+          <span class="op-info"><strong>${a.nombre}</strong><span>${a.detalle}</span></span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+        </button></li>`).join("")}
+    </ul>
+    <p class="b-texto" style="font-size:12px">Simulación: no se conecta ninguna billetera real.</p>`);
+}
+
+function pantallaAbriendo(idApp) {
+  const app = APPS_BILLETERA.find((a) => a.id === idApp);
+  vinculo = { app: app.nombre, direccion: "0x" + hexAzar(40), codigo: hexAzar(8).toUpperCase() };
+  pintar(`
+    <div class="b-exito" role="status" aria-live="polite">
+      <span class="moneda girar-suave" style="background:${app.color};width:56px;height:56px;font-size:22px" aria-hidden="true">${app.letra}</span>
+      <h2 class="b-titulo" id="b-titulo">Abriendo ${escapar(app.nombre)}…</h2>
+      <p class="b-texto">${app.id === "walletconnect" ? "Esperando que aceptes en la app de tu celular." : "Revisa la ventana de tu billetera."}</p>
+    </div>`);
+  temporizadores.push(setTimeout(pantallaPermisos, 1200));
+}
+
+function pantallaPermisos() {
+  pintar(`
+    <p class="b-sitio"><span class="b-sitio-logo" aria-hidden="true">A</span>abitare · prototipo</p>
+    <h2 class="b-titulo" id="b-titulo">Abitare quiere conectarse a tu billetera</h2>
+    <div class="b-cuenta"><span class="b-avatar" aria-hidden="true"></span><span>Cuenta 1 · <span class="mono">${corta(vinculo.direccion)}</span></span></div>
+    <p class="b-texto">Le das permiso para:</p>
+    <ul class="permisos">
+      <li>Ver la dirección de tu cuenta</li>
+      <li>Ver tu saldo de FELICOIN y de otras monedas</li>
+      <li>Pedirte aprobación antes de cada pago</li>
+    </ul>
+    <p class="b-texto" style="font-size:12px">Abitare no puede mover tu dinero sin que firmes cada pago.</p>
+    <div class="b-botones">
+      <button type="button" class="b-btn" data-accion="cancelar-vinculo">Cancelar</button>
+      <button type="button" class="b-btn ok" data-accion="permitir" data-foco>Conectar</button>
+    </div>`, "Ethereum Mainnet");
+}
+
+function pantallaRed() {
+  pintar(`
+    <h2 class="b-titulo" id="b-titulo">Abitare pide cambiar de red</h2>
+    <p class="b-texto">El contrato de FELICOIN está en una red de prueba. Tu billetera va a cambiar de red:</p>
+    <div class="cambio-red">
+      <span>Ethereum Mainnet</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+      <strong>Ethereum Sepolia</strong>
+    </div>
+    <p class="b-texto" style="font-size:12px">En una red de prueba el dinero no es real.</p>
+    <div class="b-botones">
+      <button type="button" class="b-btn" data-accion="cancelar-vinculo">Cancelar</button>
+      <button type="button" class="b-btn ok" data-accion="cambiar-red" data-foco>Cambiar red</button>
+    </div>`, "Ethereum Mainnet");
+}
+
+function pantallaFirmaVinculo() {
+  const fecha = new Date().toLocaleString("es-CO", { dateStyle: "short", timeStyle: "short" });
+  pintar(`
+    <h2 class="b-titulo" id="b-titulo">Firma para vincular</h2>
+    <p class="b-texto">Con esta firma Abitare comprueba que la cuenta es tuya. Firmar no cuesta nada ni mueve dinero.</p>
+    <pre class="b-mensaje">Abitare · vinculación de billetera
+
+Cuenta: ${corta(vinculo.direccion)}
+Red: Ethereum Sepolia
+Código: ${vinculo.codigo}
+Fecha: ${fecha}</pre>
+    <label class="b-campo" for="b-nombre-v">Tu nombre (titular de la billetera)
+      <input id="b-nombre-v" type="text" autocomplete="name" placeholder="Nombre y apellido" data-foco>
+    </label>
+    <p class="b-error" id="b-error" role="alert"></p>
+    <div class="b-botones">
+      <button type="button" class="b-btn" data-accion="cancelar-vinculo">Cancelar</button>
+      <button type="button" class="b-btn ok" data-accion="firmar-vinculo">Firmar</button>
+    </div>`, "Ethereum Sepolia");
+}
+
+function firmarVinculo() {
+  const nombre = $("b-nombre-v").value.trim();
+  if (!nombre) { $("b-error").textContent = "Escribe tu nombre para vincular la billetera."; $("b-nombre-v").focus(); return; }
+  vinculo.nombre = nombre;
+  progreso("Vinculando tu billetera…", `${escapar(vinculo.app)} · <span class="mono">${corta(vinculo.direccion)}</span>`, [
+    "Verificando la firma",
+    "Registrando la billetera en el contrato de Abitare",
+    "Consultando tu saldo de FELICOIN"
+  ], terminarVinculo, "Ethereum Sepolia");
+}
+
+function terminarVinculo() {
+  const b = {
+    app: vinculo.app, direccion: vinculo.direccion, nombre: vinculo.nombre, red: "Ethereum Sepolia",
+    saldo: SALDO_INICIAL_FLC, cargas: 0, apartadosFLC: 0, premios: 0, movimientos: []
+  };
+  movimiento(b, "Saldo de prueba cargado por el asesor", SALDO_INICIAL_FLC);
+  guardarBilletera(b);
+  if (tx) tx.cliente = b.nombre;
+  vinculo = null;
+  pintar(`
+    <div class="b-exito">
+      <span class="check" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0E1714" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></span>
+      <h2 class="b-titulo" id="b-titulo">¡Billetera vinculada!</h2>
+      <p class="b-texto">Hola, ${escapar(b.nombre)}. Tu billetera ya está conectada a Abitare.</p>
+    </div>
+    <div class="b-saldo">
+      <span>Saldo FELICOIN</span>
+      <strong>${flc(b.saldo)}</strong>
+      <span>≈ ${pesos(b.saldo * 1000)} · saldo de prueba</span>
+    </div>
+    <dl class="b-detalle">
+      <dt>Billetera</dt><dd>${escapar(b.app)}</dd>
+      <dt>Cuenta</dt><dd class="mono">${corta(b.direccion)}</dd>
+      <dt>Red</dt><dd>${b.red}</dd>
+    </dl>
+    <div class="b-botones">
+      ${tx
+        ? `<button type="button" class="b-btn ok unico" data-accion="ir-a-pagar" data-foco>Continuar al pago</button>`
+        : `<button type="button" class="b-btn" data-accion="mi-billetera">Ver mi billetera</button><button type="button" class="b-btn ok" data-accion="cerrar" data-foco>Listo</button>`}
+    </div>`, "Ethereum Sepolia");
+}
+
+/* ---------- Mi billetera: saldo, premios y carga de saldo ---------- */
+function pantallaMiBilletera() {
+  const b = leerBilletera();
+  if (!b) { pantallaVincular(); return; }
+  pintar(`
+    <h2 class="b-titulo" id="b-titulo">Mi billetera</h2>
+    ${cuentaHTML(b)}
+    <div class="b-saldo">
+      <span>Saldo FELICOIN</span>
+      <strong>${flc(b.saldo)}</strong>
+      <span>≈ ${pesos(b.saldo * 1000)} · 1 FLC = $1.000 fijo</span>
+    </div>
+    <dl class="b-detalle">
+      <dt>Titular</dt><dd>${escapar(b.nombre)}</dd>
+      <dt>Red</dt><dd>${b.red}</dd>
+      <dt>Premios ganados</dt><dd>${num(b.premios, 0)} FLC</dd>
+      <dt>Apartados con FLC</dt><dd>${b.apartadosFLC}</dd>
+    </dl>
+    <div>
+      <p class="b-subtitulo">Últimos movimientos</p>
+      <ul class="movimientos">
+        ${b.movimientos.map((m) => `<li><span><strong>${escapar(m.texto)}</strong><span>${escapar(m.fecha)}</span></span><span class="${m.monto >= 0 ? "mas" : "menos"}">${m.monto >= 0 ? "+" : "−"}${num(Math.abs(m.monto), 0)} FLC</span></li>`).join("")}
+      </ul>
+    </div>
+    <div class="b-botones">
+      <button type="button" class="b-btn" data-accion="desvincular">Desvincular</button>
+      <button type="button" class="b-btn ok" data-accion="cargar" data-foco>Cargar saldo</button>
+    </div>`, b.red);
+}
+
+function pantallaCargar() {
+  const b = leerBilletera();
+  const opciones = [500, 1000, 5000, 10000];
+  const extra = b.cargas >= 1;
+  pintar(`
+    <button type="button" class="b-volver" data-accion="${tx ? "volver-revisar" : "mi-billetera"}">← Volver</button>
+    <h2 class="b-titulo" id="b-titulo">Cargar FELICOIN</h2>
+    <p class="b-texto">Consignas pesos en la cuenta de Abitare y el asesor carga el mismo valor en FLC a tu billetera. Saldo actual: <strong>${flc(b.saldo)}</strong>.</p>
+    <ul class="lista-cripto">
+      ${opciones.map((o) => `
+        <li><button type="button" class="op-cripto" data-cargar="${o}">
+          ${icono(CRIPTOS[0])}
+          <span class="op-info"><strong>${num(o, 0)} FLC</strong><span>Consignas ${pesos(o * 1000)}</span></span>
+          ${extra ? `<span class="op-monto"><strong>+${num(Math.floor(o * 0.02), 0)}</strong><span>premio 2 %</span></span>` : ""}
+        </button></li>`).join("")}
+    </ul>
+    <p class="b-texto" style="font-size:12px">${extra ? "Como ya cargaste antes, recibes 2 % extra en FLC." : "Desde tu segunda carga de 500 FLC o más recibes 2 % extra."} Simulación: no se consigna dinero real.</p>`, b.red);
+}
+
+function cargar(cantidad) {
+  const b = leerBilletera();
+  const premio = b.cargas >= 1 && cantidad >= 500 ? Math.floor(cantidad * 0.02) : 0;
+  progreso("Cargando saldo…", `${num(cantidad, 0)} FLC · ${pesos(cantidad * 1000)}`, [
+    "Abitare confirma la consignación",
+    "El contrato envía FELICOIN a tu billetera"
+  ], () => {
+    const nb = leerBilletera();
+    nb.saldo += cantidad + premio; nb.cargas += 1; nb.premios += premio;
+    movimiento(nb, "Carga de saldo", cantidad);
+    if (premio) movimiento(nb, "Premio 2 % por carga", premio);
+    guardarBilletera(nb);
+    if (tx && tx.cripto) pantallaRevisar("FLC"); else pantallaMiBilletera();
+  }, b.red);
+}
+
+/* ---------- 2. Pagar el apartado ---------- */
 function pantallaBloqueado() {
   pintar(`
     <h2 class="b-titulo" id="b-titulo">Este inmueble ya está apartado</h2>
@@ -649,47 +950,56 @@ function pantallaBloqueado() {
 }
 
 function pantallaElegir() {
-  if (!tx.cuenta) tx.cuenta = "0x" + hexAzar(40);
+  const b = leerBilletera();
+  tx.cuenta = b.direccion;
   pintar(`
     <h2 class="b-titulo" id="b-titulo">Pagar el apartado</h2>
-    <p class="b-texto">Abitare solicita el pago del apartado de <strong>${escapar(tx.inmueble.nombre)}</strong> por <strong>${pesos(tx.inmueble.apartado)}</strong>. Elige con qué criptomoneda pagar.</p>
-    <div class="b-cuenta"><span class="b-avatar" aria-hidden="true"></span><span>Cuenta 1 · <span class="mono">${corta(tx.cuenta)}</span></span></div>
+    <p class="b-texto">Abitare solicita el pago del apartado de <strong>${escapar(tx.inmueble.nombre)}</strong> por <strong>${pesos(tx.inmueble.apartado)}</strong>. Elige con qué moneda pagar.</p>
+    ${cuentaHTML(b)}
     <ul class="lista-cripto">
-      ${CRIPTOS.map((c) => `
-        <li><button type="button" class="op-cripto" data-cripto="${c.id}">
+      ${CRIPTOS.map((c) => {
+        const alcanza = !c.fija || b.saldo >= montoEn(c);
+        return `
+        <li><button type="button" class="op-cripto${c.fija ? " destacada" : ""}" data-cripto="${c.id}">
           ${icono(c)}
-          <span class="op-info"><strong>${c.nombre} · ${c.id}</strong><span>${c.red}</span></span>
-          <span class="op-monto"><strong>${num(montoEn(c), c.decimales)}</strong><span>${c.id}</span></span>
-        </button></li>`).join("")}
+          <span class="op-info"><strong>${c.nombre} · ${c.id}</strong><span>${c.fija ? `Saldo: ${num(b.saldo, 0)} FLC${alcanza ? "" : " · insuficiente"}` : c.red}</span></span>
+          <span class="op-monto"><strong>${num(montoEn(c), c.decimales)}</strong><span>${c.fija ? "valor fijo" : c.id}</span></span>
+        </button></li>`; }).join("")}
     </ul>
-    <p class="b-texto" style="font-size:12px">Montos calculados con tasas de ejemplo para la demo.</p>`);
+    <p class="b-texto" style="font-size:12px">FELICOIN: 1 FLC = $1.000 fijo y sin comisión. Las demás monedas usan precios de referencia de noviembre de 2026.</p>`, b.red);
 }
 
 function pantallaRevisar(idCripto) {
   const c = CRIPTOS.find((x) => x.id === idCripto);
+  const b = leerBilletera();
   tx.cripto = c;
   const monto = montoEn(c);
   const total = monto + c.comision;
-  const saldo = total * (2 + Math.random() * 3); // saldo de prueba suficiente
+  const saldo = c.fija ? b.saldo : total * (2 + Math.random() * 3); // otras monedas: saldo de prueba suficiente
+  const alcanza = saldo >= total;
+  const premio = c.fija && b.apartadosFLC === 0;
   tx.monto = num(monto, c.decimales);
-  tx.desde = c.id === "BTC" || c.id === "SOL" ? direccionPara(c) : tx.cuenta;
-  tx.hacia = c.id === "BTC" ? "tb1q" + "abitare" + hexAzar(31) : c.id === "SOL" ? direccionPara(c) : CONTRATO_ABITARE;
+  tx.montoNum = monto;
+  tx.desde = c.id === "BTC" || c.id === "ADA" ? direccionPara(c) : b.direccion;
+  tx.hacia = c.id === "BTC" ? "tb1q" + "abitare" + hexAzar(31) : c.id === "ADA" ? direccionPara(c) : CONTRATO_ABITARE;
   pintar(`
-    <button type="button" class="b-volver" data-accion="volver">← Cambiar criptomoneda</button>
+    <button type="button" class="b-volver" data-accion="volver">← Cambiar moneda</button>
     <div class="b-monto">
       ${icono(c)}
       <strong>${num(monto, c.decimales)} ${c.id}</strong>
-      <span>≈ ${pesos(tx.inmueble.apartado)} · apartado de ${escapar(tx.inmueble.nombre)}</span>
+      <span>${c.fija ? "=" : "≈"} ${pesos(tx.inmueble.apartado)} · apartado de ${escapar(tx.inmueble.nombre)}</span>
     </div>
     <h2 class="b-titulo" id="b-titulo" style="font-size:16px">Revisa la transacción</h2>
     <dl class="b-detalle">
       <dt>Desde</dt><dd class="mono">${corta(tx.desde)}</dd>
       <dt>Para</dt><dd class="mono">Contrato Abitare · ${corta(tx.hacia)}</dd>
       <dt>Red</dt><dd>${c.red}</dd>
-      <dt>Saldo de prueba</dt><dd>${num(saldo, c.decimales)} ${c.id}</dd>
-      <dt>Comisión de red</dt><dd>${num(c.comision, c.decimales + 2).replace(/0+$/, "").replace(/,$/, "")} ${c.id}</dd>
+      <dt>${c.fija ? "Tu saldo" : "Saldo de prueba"}</dt><dd>${num(saldo, c.decimales)} ${c.id}</dd>
+      <dt>Comisión de red</dt><dd>${c.fija ? "0 FLC (la asume Abitare)" : num(c.comision, c.decimales + 2).replace(/0+$/, "").replace(/,$/, "") + " " + c.id}</dd>
+      ${premio ? `<dt>Premio</dt><dd style="color:#4FB396">+${PREMIO_BIENVENIDA_FLC} FLC de bienvenida</dd>` : ""}
       <dt class="total">Total</dt><dd class="total">${num(total, c.decimales)} ${c.id}</dd>
     </dl>
+    ${alcanza ? `
     <label class="b-campo" for="b-nombre">Nombre de quien separa
       <input id="b-nombre" type="text" autocomplete="name" placeholder="Nombre y apellido" value="${escapar(tx.cliente)}" data-foco>
     </label>
@@ -697,7 +1007,12 @@ function pantallaRevisar(idCripto) {
     <div class="b-botones">
       <button type="button" class="b-btn" data-accion="rechazar">Rechazar</button>
       <button type="button" class="b-btn ok" data-accion="firmar">Confirmar y firmar</button>
-    </div>`, c.red);
+    </div>` : `
+    <p class="b-error" role="alert">Te faltan ${num(total - saldo, 0)} FLC para pagar este apartado.</p>
+    <div class="b-botones">
+      <button type="button" class="b-btn" data-accion="volver">Otra moneda</button>
+      <button type="button" class="b-btn ok" data-accion="cargar" data-foco>Cargar saldo</button>
+    </div>`}`, c.red);
 }
 
 function firmar() {
@@ -705,40 +1020,14 @@ function firmar() {
   if (!nombre) { $("b-error").textContent = "Escribe tu nombre para registrar el apartado."; $("b-nombre").focus(); return; }
   if (leerApartados()[tx.inmueble.id]) { pantallaBloqueado(); return; }
   tx.cliente = nombre;
-  tx.hash = tx.cripto.id === "BTC" ? hexAzar(64) : tx.cripto.id === "SOL" ? direccionPara(tx.cripto) + direccionPara(tx.cripto).slice(0, 20) : "0x" + hexAzar(64);
-  pantallaEnviando();
-}
-
-function pantallaEnviando() {
+  tx.hash = tx.cripto.id === "BTC" || tx.cripto.id === "ADA" ? hexAzar(64) : "0x" + hexAzar(64);
   const c = tx.cripto;
-  enviando = true;
-  $("b-cerrar").disabled = true;
-  const pasos = [
+  progreso("Procesando el pago…", `${tx.monto} ${c.id} · <span class="mono">${corta(tx.hash)}</span>`, [
     "Firmando la transacción",
     `Enviando a ${c.red}`,
     ...Array.from({ length: c.confirmaciones }, (_, k) => `Confirmación ${k + 1} de ${c.confirmaciones}`),
     "El contrato registra el apartado y bloquea el inmueble"
-  ];
-  pintar(`
-    <h2 class="b-titulo" id="b-titulo">Procesando el pago…</h2>
-    <p class="b-texto">${tx.monto} ${c.id} · <span class="mono">${corta(tx.hash)}</span></p>
-    <div class="barra" aria-hidden="true"><div id="b-barra"></div></div>
-    <ol class="progreso" id="b-progreso" role="status" aria-live="polite">
-      ${pasos.map((p) => `<li><span class="marca" aria-hidden="true"></span>${p}</li>`).join("")}
-    </ol>`, c.red);
-  const items = [...$("b-progreso").children];
-  items.forEach((li, k) => {
-    temporizadores.push(setTimeout(() => {
-      if (k > 0) items[k - 1].className = "hecho";
-      li.className = "activo";
-      $("b-barra").style.width = Math.round((k / items.length) * 100) + "%";
-    }, k * 850));
-  });
-  temporizadores.push(setTimeout(() => {
-    items[items.length - 1].className = "hecho";
-    $("b-barra").style.width = "100%";
-    registrar();
-  }, items.length * 850 + 250));
+  ], registrar, c.red);
 }
 
 function registrar() {
@@ -748,8 +1037,16 @@ function registrar() {
     fecha: new Date().toLocaleString("es-CO", { dateStyle: "short", timeStyle: "short" })
   };
   const d = leerApartados(); d[tx.inmueble.id] = r; guardarApartados(d);
-  enviando = false;
-  $("b-cerrar").disabled = false;
+  let premio = 0, saldoFinal = null;
+  if (c.fija) {
+    const b = leerBilletera();
+    b.saldo -= tx.montoNum;
+    movimiento(b, "Apartado · " + tx.inmueble.nombre, -tx.montoNum);
+    if (b.apartadosFLC === 0) { premio = PREMIO_BIENVENIDA_FLC; b.saldo += premio; b.premios += premio; movimiento(b, "Premio de bienvenida", premio); }
+    b.apartadosFLC += 1;
+    guardarBilletera(b);
+    saldoFinal = b.saldo;
+  }
   pintar(`
     <div class="b-exito">
       <span class="check" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0E1714" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></span>
@@ -761,6 +1058,8 @@ function registrar() {
       <dt>Red</dt><dd>${r.red}</dd>
       <dt>Transacción</dt><dd class="mono">${corta(r.hash)}</dd>
       <dt>Fecha</dt><dd>${r.fecha}</dd>
+      ${premio ? `<dt>Premio</dt><dd style="color:#4FB396">+${premio} FLC de bienvenida</dd>` : ""}
+      ${saldoFinal !== null ? `<dt>Saldo restante</dt><dd>${flc(saldoFinal)}</dd>` : ""}
       <dt>Estado</dt><dd style="color:#4FB396">Confirmada</dd>
     </dl>
     <div class="b-botones">
@@ -773,13 +1072,40 @@ function registrar() {
 document.addEventListener("click", (ev) => {
   const sep = ev.target.closest("[data-separar]");
   if (sep) { abrirBilletera(sep.dataset.separar); return; }
+  const app = ev.target.closest("[data-app]");
+  if (app) { pantallaAbriendo(app.dataset.app); return; }
   const cr = ev.target.closest("[data-cripto]");
   if (cr) { pantallaRevisar(cr.dataset.cripto); return; }
+  const cg = ev.target.closest("[data-cargar]");
+  if (cg) { cargar(Number(cg.dataset.cargar)); return; }
   const ac = ev.target.closest("[data-accion]");
   if (!ac) return;
   const a = ac.dataset.accion;
   if (a === "volver") pantallaElegir();
+  else if (a === "volver-revisar") pantallaRevisar("FLC");
   else if (a === "firmar") firmar();
+  else if (a === "permitir") pantallaRed();
+  else if (a === "cambiar-red") pantallaFirmaVinculo();
+  else if (a === "firmar-vinculo") firmarVinculo();
+  else if (a === "ir-a-pagar") pantallaElegir();
+  else if (a === "mi-billetera") pantallaMiBilletera();
+  else if (a === "cargar") pantallaCargar();
+  else if (a === "desvincular") pintar(`
+      <h2 class="b-titulo" id="b-titulo">¿Desvincular la billetera?</h2>
+      <p class="b-texto">Para volver a pagar tendrás que vincularla otra vez. En esta demo el saldo de prueba se pierde.</p>
+      <div class="b-botones">
+        <button type="button" class="b-btn" data-accion="mi-billetera">Cancelar</button>
+        <button type="button" class="b-btn ok" data-accion="confirmar-desvincular">Desvincular</button>
+      </div>`);
+  else if (a === "confirmar-desvincular") { guardarBilletera(null); cerrarBilletera(); }
+  else if (a === "cancelar-vinculo") pintar(`
+      <h2 class="b-titulo" id="b-titulo">Vinculación cancelada</h2>
+      <p class="b-texto">No se conectó ninguna billetera.</p>
+      <div class="b-botones">
+        <button type="button" class="b-btn" data-accion="cerrar">Cerrar</button>
+        <button type="button" class="b-btn ok" data-accion="reintentar-vinculo">Intentar de nuevo</button>
+      </div>`);
+  else if (a === "reintentar-vinculo") pantallaVincular();
   else if (a === "rechazar") pintar(`
       <h2 class="b-titulo" id="b-titulo">Transacción rechazada</h2>
       <p class="b-texto">No se envió ningún pago y el inmueble sigue disponible.</p>
@@ -790,11 +1116,17 @@ document.addEventListener("click", (ev) => {
   else if (a === "cerrar") cerrarBilletera();
   else if (a === "ver-asesor") { cerrarBilletera(); location.hash = "#asesor"; }
 });
+$("btn-billetera").addEventListener("click", () => {
+  tx = null;
+  mostrarVentana();
+  if (leerBilletera()) pantallaMiBilletera(); else pantallaVincular();
+});
 $("b-cerrar").addEventListener("click", cerrarBilletera);
 $("velo").addEventListener("click", (ev) => { if (ev.target === $("velo")) cerrarBilletera(); });
 $("velo").addEventListener("keydown", (ev) => {
   if (ev.key === "Escape") { cerrarBilletera(); return; }
   if (ev.key === "Enter" && ev.target.id === "b-nombre") { ev.preventDefault(); firmar(); return; }
+  if (ev.key === "Enter" && ev.target.id === "b-nombre-v") { ev.preventDefault(); firmarVinculo(); return; }
   if (ev.key === "Tab") { // mantener el foco dentro de la billetera
     const f = [...$("velo").querySelectorAll("button:not([disabled]), input")];
     if (!f.length) return;
@@ -807,7 +1139,8 @@ $("btn-simular-hero").addEventListener("click", () => {
   const libre = INMUEBLES.find((i) => !ap[i.id]);
   if (libre) abrirBilletera(libre.id); else location.hash = "#asesor";
 });
-$("btn-reiniciar").addEventListener("click", () => { guardarApartados({}); pintarAsesor(); });
+$("btn-reiniciar").addEventListener("click", () => { guardarApartados({}); guardarBilletera(null); pintarAsesor(); });
+actualizarBotonBilletera();
 
 window.addEventListener("hashchange", navegar);
 pintarChips();
